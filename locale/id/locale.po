@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: metadataQualityChecker\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.metadataQualityChecker.displayName"
+msgstr "Metadata Quality Checker"
+
+msgid "plugins.generic.metadataQualityChecker.description"
+msgstr "Mengevaluasi kelengkapan dan kualitas metadata naskah langsung di halaman editorial workflow."
+
+msgid "plugins.generic.metadataQualityChecker.tabTitle"
+msgstr "Kualitas Metadata"
+
+msgid "plugins.generic.metadataQualityChecker.overallScore"
+msgstr "Skor Kualitas Metadata"
+
+msgid "plugins.generic.metadataQualityChecker.status.excellent"
+msgstr "Sangat Baik (Siap Terbit)"
+
+msgid "plugins.generic.metadataQualityChecker.status.good"
+msgstr "Baik (Perlu Sedikit Perbaikan)"
+
+msgid "plugins.generic.metadataQualityChecker.status.needsWork"
+msgstr "Perlu Perhatian (Ada Masalah)"
+
+msgid "plugins.generic.metadataQualityChecker.status.critical"
+msgstr "Kritis (Metadata Belum Lengkap)"
+
+msgid "plugins.generic.metadataQualityChecker.rule.title"
+msgstr "Judul Artikel"
+
+msgid "plugins.generic.metadataQualityChecker.rule.abstract"
+msgstr "Abstrak"
+
+msgid "plugins.generic.metadataQualityChecker.rule.keywords"
+msgstr "Kata Kunci (Keywords)"
+
+msgid "plugins.generic.metadataQualityChecker.rule.authors"
+msgstr "Penulis & Kontributor"
+
+msgid "plugins.generic.metadataQualityChecker.rule.references"
+msgstr "Daftar Pustaka / Referensi"
+
+msgid "plugins.generic.metadataQualityChecker.rule.coverage"
+msgstr "Kelengkapan Bahasa / Indeksasi"
+
+msgid "plugins.generic.metadataQualityChecker.rule.doiGalley"
+msgstr "DOI & Berkas Galley"
+
+msgid "plugins.generic.metadataQualityChecker.rule.publishingDetails"
+msgstr "Detail Penerbitan & Isu"
+
+msgid "plugins.generic.metadataQualityChecker.check.titleEmpty"
+msgstr "Judul artikel belum diisi."
+
+msgid "plugins.generic.metadataQualityChecker.check.titleTooShort"
+msgstr "Judul terlalu pendek ({$count} kata). Disarankan minimal 5–25 kata."
+
+msgid "plugins.generic.metadataQualityChecker.check.titleTooLong"
+msgstr "Judul cukup panjang ({$count} kata). Disarankan lebih ringkas (< 25 kata)."
+
+msgid "plugins.generic.metadataQualityChecker.check.titleIdeal"
+msgstr "Panjang judul ideal ({$count} kata)."
+
+msgid "plugins.generic.metadataQualityChecker.check.titleAllCaps"
+msgstr "Judul menggunakan HURUF KAPITAL SEMUA (ALL CAPS). Gunakan format Sentence case atau Title Case."
+
+msgid "plugins.generic.metadataQualityChecker.check.abstractEmpty"
+msgstr "Abstrak masih kosong."
+
+msgid "plugins.generic.metadataQualityChecker.check.abstractTooShort"
+msgstr "Abstrak terlalu pendek ({$count} kata). Standar jurnal 150–250 kata."
+
+msgid "plugins.generic.metadataQualityChecker.check.abstractTooLong"
+msgstr "Abstrak melebihi batas umum ({$count} kata). Disarankan maksimal 250–300 kata."
+
+msgid "plugins.generic.metadataQualityChecker.check.abstractIdeal"
+msgstr "Panjang abstrak memadai ({$count} kata)."
+
+msgid "plugins.generic.metadataQualityChecker.check.keywordsEmpty"
+msgstr "Kata kunci (keywords) belum diisi."
+
+msgid "plugins.generic.metadataQualityChecker.check.keywordsTooFew"
+msgstr "Kata kunci baru ada {$count}. Disarankan minimal 3–6 kata kunci."
+
+msgid "plugins.generic.metadataQualityChecker.check.keywordsAdequate"
+msgstr "Jumlah kata kunci memadai ({$count} kata kunci)."
+
+msgid "plugins.generic.metadataQualityChecker.check.keywordsMergedComma"
+msgstr "Ada kata kunci yang tergabung dengan tanda koma atau titik koma dalam satu tag."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsEmpty"
+msgstr "Belum ada data penulis (authors) yang dimasukkan."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsNoPrimary"
+msgstr "Belum ada penulis yang ditandai sebagai Kontak Utama (Primary Contact)."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsMissingAffil"
+msgstr "Ada {$missing} dari {$total} penulis tanpa institusi/afiliasi."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsAllAffil"
+msgstr "Semua penulis ({$total}) memiliki afiliasi."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsMissingCountry"
+msgstr "Ada {$missing} penulis tanpa data negara."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsMissingOrcid"
+msgstr "Ada {$missing} dari {$total} penulis belum menautkan ORCID iD."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsAllOrcid"
+msgstr "Semua penulis sudah memiliki ORCID iD."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsGenericEmail"
+msgstr "Ada {$count} dari {$total} penulis menggunakan email publik (Gmail/Yahoo). Disarankan email instansi."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsInstEmail"
+msgstr "Semua penulis tampak menggunakan alamat surel instansi/organisasi."
+
+msgid "plugins.generic.metadataQualityChecker.check.refEmpty"
+msgstr "Daftar pustaka/referensi belum diisi di tab Citations/Metadata."
+
+msgid "plugins.generic.metadataQualityChecker.check.refTooFew"
+msgstr "Jumlah referensi terdeteksi {$count}. Disarankan minimal 10–15 referensi mutakhir."
+
+msgid "plugins.generic.metadataQualityChecker.check.refAdequate"
+msgstr "Jumlah referensi terdeteksi {$count} entri."
+
+msgid "plugins.generic.metadataQualityChecker.check.refDoiFound"
+msgstr "Ditemukan sekitar {$count} tautan DOI dalam referensi."
+
+msgid "plugins.generic.metadataQualityChecker.check.refNoDoi"
+msgstr "Belum ditemukan tautan DOI aktif dalam referensi."
+
+msgid "plugins.generic.metadataQualityChecker.check.coverageFull"
+msgstr "Judul dan Abstrak bahasa Inggris tersedia (Standar DOAJ / Scopus)."
+
+msgid "plugins.generic.metadataQualityChecker.check.coveragePartial"
+msgstr "Judul atau Abstrak versi bahasa Inggris baru sebagian terisi."
+
+msgid "plugins.generic.metadataQualityChecker.check.coverageNone"
+msgstr "Versi bahasa Inggris untuk Judul/Abstrak belum terisi (sangat dianjurkan untuk indeksasi)."
+
+msgid "plugins.generic.metadataQualityChecker.check.doiAssigned"
+msgstr "DOI sudah disematkan ({$doi})."
+
+msgid "plugins.generic.metadataQualityChecker.check.doiMissing"
+msgstr "Belum ada DOI pada publikasi ini."
+
+msgid "plugins.generic.metadataQualityChecker.check.galleyPresent"
+msgstr "Sudah ada {$count} berkas galley ({$labels})."
+
+msgid "plugins.generic.metadataQualityChecker.check.galleyMissing"
+msgstr "Belum ada berkas galley (PDF/HTML) yang diunggah. Pembaca tidak bisa mengunduh artikel."
+
+msgid "plugins.generic.metadataQualityChecker.check.issueAssigned"
+msgstr "Sudah dijadwalkan pada edisi/isu: {$issue}."
+
+msgid "plugins.generic.metadataQualityChecker.check.issueMissing"
+msgstr "Belum dijadwalkan ke dalam edisi/isu (issue)."
+
+msgid "plugins.generic.metadataQualityChecker.check.pagesPresent"
+msgstr "Nomor halaman terisi ({$pages})."
+
+msgid "plugins.generic.metadataQualityChecker.check.pagesMissing"
+msgstr "Rentang halaman atau nomor artikel belum diisi."
+
+msgid "plugins.generic.metadataQualityChecker.check.licensePresent"
+msgstr "Tautan lisensi hak cipta terisi ({$url})."
+
+msgid "plugins.generic.metadataQualityChecker.check.licenseMissing"
+msgstr "Tautan lisensi publikasi belum ditentukan."

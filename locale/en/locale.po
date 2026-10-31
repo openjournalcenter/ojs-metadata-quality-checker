@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: metadataQualityChecker\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.metadataQualityChecker.displayName"
+msgstr "Metadata Quality Checker"
+
+msgid "plugins.generic.metadataQualityChecker.description"
+msgstr "Evaluates and displays submission metadata completeness and quality metrics directly in the editorial workflow."
+
+msgid "plugins.generic.metadataQualityChecker.tabTitle"
+msgstr "Metadata Quality"
+
+msgid "plugins.generic.metadataQualityChecker.overallScore"
+msgstr "Metadata Quality Score"
+
+msgid "plugins.generic.metadataQualityChecker.status.excellent"
+msgstr "Excellent (Ready for Publishing)"
+
+msgid "plugins.generic.metadataQualityChecker.status.good"
+msgstr "Good (Minor Improvements Suggested)"
+
+msgid "plugins.generic.metadataQualityChecker.status.needsWork"
+msgstr "Needs Attention (Issues Found)"
+
+msgid "plugins.generic.metadataQualityChecker.status.critical"
+msgstr "Critical (Incomplete Metadata)"
+
+msgid "plugins.generic.metadataQualityChecker.rule.title"
+msgstr "Article Title"
+
+msgid "plugins.generic.metadataQualityChecker.rule.abstract"
+msgstr "Abstract"
+
+msgid "plugins.generic.metadataQualityChecker.rule.keywords"
+msgstr "Keywords"
+
+msgid "plugins.generic.metadataQualityChecker.rule.authors"
+msgstr "Authors & Contributors"
+
+msgid "plugins.generic.metadataQualityChecker.rule.references"
+msgstr "References / Citations"
+
+msgid "plugins.generic.metadataQualityChecker.rule.coverage"
+msgstr "Multilingual / Indexing Coverage"
+
+msgid "plugins.generic.metadataQualityChecker.rule.doiGalley"
+msgstr "DOI & Galley Files"
+
+msgid "plugins.generic.metadataQualityChecker.rule.publishingDetails"
+msgstr "Publishing & Issue Details"
+
+msgid "plugins.generic.metadataQualityChecker.check.titleEmpty"
+msgstr "Article title has not been provided."
+
+msgid "plugins.generic.metadataQualityChecker.check.titleTooShort"
+msgstr "Title is too short ({$count} words). Recommended length is 5–25 words."
+
+msgid "plugins.generic.metadataQualityChecker.check.titleTooLong"
+msgstr "Title is quite long ({$count} words). Recommended to be under 25 words."
+
+msgid "plugins.generic.metadataQualityChecker.check.titleIdeal"
+msgstr "Title length is ideal ({$count} words)."
+
+msgid "plugins.generic.metadataQualityChecker.check.titleAllCaps"
+msgstr "Title is typed in ALL CAPS. Please use Sentence case or Title Case format."
+
+msgid "plugins.generic.metadataQualityChecker.check.abstractEmpty"
+msgstr "Abstract is empty."
+
+msgid "plugins.generic.metadataQualityChecker.check.abstractTooShort"
+msgstr "Abstract is too short ({$count} words). Standard journal range is 150–250 words."
+
+msgid "plugins.generic.metadataQualityChecker.check.abstractTooLong"
+msgstr "Abstract exceeds common limits ({$count} words). Recommended maximum is 250–300 words."
+
+msgid "plugins.generic.metadataQualityChecker.check.abstractIdeal"
+msgstr "Abstract length is adequate ({$count} words)."
+
+msgid "plugins.generic.metadataQualityChecker.check.keywordsEmpty"
+msgstr "No keywords provided."
+
+msgid "plugins.generic.metadataQualityChecker.check.keywordsTooFew"
+msgstr "Only {$count} keyword(s) entered. Recommended minimum is 3–6 keywords."
+
+msgid "plugins.generic.metadataQualityChecker.check.keywordsAdequate"
+msgstr "Keyword count is sufficient ({$count} keywords)."
+
+msgid "plugins.generic.metadataQualityChecker.check.keywordsMergedComma"
+msgstr "Detected keywords joined by commas or semicolons within a single tag."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsEmpty"
+msgstr "No authors or contributors added."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsNoPrimary"
+msgstr "No author has been designated as Primary Contact."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsMissingAffil"
+msgstr "{$missing} of {$total} author(s) are missing institution/affiliation."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsAllAffil"
+msgstr "All authors ({$total}) have affiliations recorded."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsMissingCountry"
+msgstr "{$missing} author(s) are missing country information."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsMissingOrcid"
+msgstr "{$missing} of {$total} author(s) have not linked an ORCID iD."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsAllOrcid"
+msgstr "All authors have linked their ORCID iDs."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsGenericEmail"
+msgstr "{$count} of {$total} author(s) use public/generic email domains (Gmail/Yahoo). Institutional email recommended."
+
+msgid "plugins.generic.metadataQualityChecker.check.authorsInstEmail"
+msgstr "All authors appear to use institutional/organization email domains."
+
+msgid "plugins.generic.metadataQualityChecker.check.refEmpty"
+msgstr "No references entered in the Citations/References field."
+
+msgid "plugins.generic.metadataQualityChecker.check.refTooFew"
+msgstr "Detected only {$count} reference(s). Recommended minimum is 10–15 recent references."
+
+msgid "plugins.generic.metadataQualityChecker.check.refAdequate"
+msgstr "Detected {$count} reference entries."
+
+msgid "plugins.generic.metadataQualityChecker.check.refDoiFound"
+msgstr "Detected approximately {$count} DOI links in references."
+
+msgid "plugins.generic.metadataQualityChecker.check.refNoDoi"
+msgstr "No active DOI links found in references."
+
+msgid "plugins.generic.metadataQualityChecker.check.coverageFull"
+msgstr "English Title and Abstract are present (DOAJ / Scopus standard)."
+
+msgid "plugins.generic.metadataQualityChecker.check.coveragePartial"
+msgstr "English version for Title or Abstract is only partially provided."
+
+msgid "plugins.generic.metadataQualityChecker.check.coverageNone"
+msgstr "English Title/Abstract not provided (highly recommended for indexing)."
+
+msgid "plugins.generic.metadataQualityChecker.check.doiAssigned"
+msgstr "DOI is assigned ({$doi})."
+
+msgid "plugins.generic.metadataQualityChecker.check.doiMissing"
+msgstr "No DOI assigned to this publication."
+
+msgid "plugins.generic.metadataQualityChecker.check.galleyPresent"
+msgstr "{$count} publication galley file(s) uploaded ({$labels})."
+
+msgid "plugins.generic.metadataQualityChecker.check.galleyMissing"
+msgstr "No galley file (PDF/HTML) uploaded. Readers will have nothing to download."
+
+msgid "plugins.generic.metadataQualityChecker.check.issueAssigned"
+msgstr "Assigned to issue: {$issue}."
+
+msgid "plugins.generic.metadataQualityChecker.check.issueMissing"
+msgstr "Not yet scheduled or assigned to any issue."
+
+msgid "plugins.generic.metadataQualityChecker.check.pagesPresent"
+msgstr "Page numbers recorded ({$pages})."
+
+msgid "plugins.generic.metadataQualityChecker.check.pagesMissing"
+msgstr "Page range / article number is missing."
+
+msgid "plugins.generic.metadataQualityChecker.check.licensePresent"
+msgstr "License URL configured ({$url})."
+
+msgid "plugins.generic.metadataQualityChecker.check.licenseMissing"
+msgstr "Publication license URL not specified."
